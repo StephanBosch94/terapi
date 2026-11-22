@@ -1,0 +1,4149 @@
+[
+	{
+		"translationKey": "fe.blog.section_title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Blog"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Blog"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.languages.section_title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Browse by language"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zvolte si jazyk, který se chcete naučit"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.lanaguages.english.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "English"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Angličtina"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.lanaguages.czech.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Czech"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Čeština"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.lanaguages.german.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "German"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Němčina"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.lanaguages.spanish.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Spanish"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Španělština"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.lanaguages.italian.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Italian"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Italština"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.lanaguages.french.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "French"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Francouzština"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.english_lp.main_title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Welcome! Find your <span class=\"mark\">english tutor</span> today"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vítejte! Najděte si <span class=\"mark\">anglickeho lektora</span> ještě dnes"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.english_lp.second_title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Prepare to speak confident or learn to play your favourite instrument with the best online tutors."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nauč se mluvit plynulé nebo se začni hrat na svůj oblíbený nástroj s nejlepšími online lektory."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.search.results_found.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "{{count}} results found"
+			},
+			{
+				"languageCode": "cs",
+				"value": "{{count}} vysledku nalezeno"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.search.no_results_found.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "No results found"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nebyl nalezen zadny vysledek"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_benefits.first_benefit_name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Set your own rate"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nastavte si svou vlastní sazbu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_benefits.first_benefit_description",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Choose your hourly rate and change it anytime. On average, English tutors charge $15-25 per hour."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zvolte si hodinovou sazbu a kdykoli ji změňte. Průměrně si lektoři angličtiny účtují 15-25 dolarů za hodinu."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_benefits.second_benefit_name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Teach from everywhere and anytime"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vyučujte odkudkoli a kdykoli"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_benefits.second_description",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Flexibility to choose your own schedule and the number of hours you want to teach, with no fixed schedule or minimum time commitment, giving you the freedom to be your own boss."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Flexibilita při výběru vlastního rozvrhu a počtu hodin, které chcete učit, bez pevného rozvrhu nebo minimálního časového závazku, což vám dává svobodu být svým vlastním šéfem."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_benefits.third_benefit_name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Grow professionally"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Profesní růst"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_benefits.third_description",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Attend professional development webinars and get tips to upgrade your skills. You’ll get all the help you need from our team to grow."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zúčastněte se webinářů o profesním rozvoji a získejte tipy na vylepšení svých dovedností. Náš tým vám poskytne veškerou pomoc, kterou potřebujete k růstu."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_benefits.forth_benefit_name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "We’ll connect you with students"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Propojíme vás se studenty"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_benefits.forth_description",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "We know one of the hardest parts of being a freelance teacher is finding clients. Let us do the work of acquiring students for you while you just focus on teaching!"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Víme, že jednou z nejtěžších částí práce učitele na volné noze je hledání klientů. Nechte nás, abychom za vás udělali práci se získáváním studentů, zatímco vy se budete soustředit jen na výuku!"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_cta_item.section_title_name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Passionate about languages and teaching?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zajímáte se o jazyky a výuku?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_cta_item._description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Join our platform and help students achieve fluency in the language of their choice."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Připojte se k naší platformě a pomozte studentům dosáhnout plynulosti ve zvoleném jazyce."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_cta_item.button_text.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Start teaching"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Začněte učit"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_question_and_answers.first_question",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "How can I become a tutor?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jak se mohu stát lektorem?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_question_and_answers.first_answer",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "To become a tutor, sign up and fill out the application. We'll review it and notify you of our decision. If approved, set your availability and create your profile to start teaching."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Chcete-li se stát lektorem, zaregistrujte se a vyplňte přihlášku. My ji posoudíme a oznámíme vám naše rozhodnutí. V případě schválení nastavte svou dostupnost a vytvořte si profil, abyste mohli začít učit."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_question_and_answers.second_question",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "How much I can earn on Yaspeak?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Kolik mohu na Yaspeaku vydělat?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_question_and_answers.second_answer",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "The earning potential on Yaspeak depends entirely on the tutor and the number of lessons they teach, as well as the price they set for their lessons. You can calculate your potential earnings by using the calculator located at the top of the page."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Potenciál výdělku na Yaspeaku závisí výhradně na lektorovi a počtu lekcí, které odučí, a také na ceně, kterou za lekce stanoví. Potenciální výdělek si můžete vypočítat pomocí kalkulačky umístěné v horní části stránky."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_question_and_answers.third_question",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Is it free to teach on Yaspeak?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Je vyučování na Yaspeaku zdarma?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_question_and_answers.third_answer",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Creating a profile on Yaspeak is absolutely free, and we're thrilled to have you join our community of passionate language tutors! While we do take a commission from each lesson, this helps us cover our advertising and operational costs so we can continue to support our platform and provide a fantastic experience for both tutors and learners. We've set our commission rate to be as low as possible and fair to our tutors, at just 18%. We can't wait for you to start teaching on Yaspeak and share your language expertise with eager learners from all over the world!"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vytvoření profilu na Yaspeaku je zcela zdarma a my jsme nadšeni, že se můžete připojit k naší komunitě nadšených lektorů jazyků! Z každé lekce si sice bereme provizi, ale ta nám pomáhá pokrýt naše náklady na reklamu a provoz, takže můžeme i nadále podporovat naši platformu a poskytovat skvělé zážitky jak lektorům, tak studentům. Sazbu provize jsme nastavili tak, aby byla co nejnižší a spravedlivá vůči našim lektorům, a to pouhých 18 %. Nemůžeme se dočkat, až začnete učit na Yaspeaku a podělíte se o své jazykové znalosti s dychtivými studenty z celého světa!"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_question_and_answers.forth_question",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "What computer equipment do I need?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jaké počítačové vybavení potřebuji?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_question_and_answers.forth_answer",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "To conduct lessons at Yaspeak, you'll require a stable internet connection along with a laptop or desktop computer equipped with a webcam and microphone."
+			},
+			{
+				"languageCode": "cs",
+				"value": "K výuce na Yaspeaku potřebujete stabilní připojení k internetu a notebook nebo stolní počítač vybavený webovou kamerou a mikrofonem."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.footer.teachers.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "teachers"
+			},
+			{
+				"languageCode": "cs",
+				"value": "učitelé"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.footer.learn.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Learn"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Naučte se"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.footer.language_teacher.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Language teachers"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vyučující jazyků"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.footer.learn_a_language.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Learn a language"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Naučte se jazyk"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.footer.privacy_policy.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Privacy policy"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Ochrana osobních údajů"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.footer.terms_of_use.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Terms of use"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Podmínky použití"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.copyright_title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "© 2023 Yaspeak s.r.o."
+			},
+			{
+				"languageCode": "cs",
+				"value": "© 2023 Yaspeak s.r.o."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.login.button_text.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Login"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Přihlásit se"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.login.keep_me_signed_in.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Remember me"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Pamatuj si mě"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.login.forgot_password.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Forgot password?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zapomněli jste heslo?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.forgot_password.title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Forgot your password?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zapomněli jste své heslo?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.forgot_password.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "It happens to the best of us – we’ll help you reset it and get back on track."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Stává se to i těm nejlepším z nás - pomůžeme vám to resetovat a vrátit se na správnou cestu."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.forgot_password.button_text.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Send reset instructions"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Odeslání pokynů k obnovení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.no_found_page.title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Page not found"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Stránka nebyla nalezena"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.no_found_page.heading.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "404"
+			},
+			{
+				"languageCode": "cs",
+				"value": "404"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.no_found_page.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "The page you are looking for doesn't exist or has been moved"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Hledaná stránka neexistuje nebo byla přesunuta."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.no_found_page.button_text.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Back to home page"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zpět na hlavní stránku"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.book.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Book tutor"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Rezervovat tutora"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.booking_modal.heading.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Select time"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zvolte si čas"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.booking_modal.proceed_to_payment.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Proceed to payment"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Přejít k platbě"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.confirm_email.title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Almost there! Check your email."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Už to skoro je! Zkontrolujte si e-mail."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.confirm_email.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Confirm your email by clicking the link we have sent you to {{email}}"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Potvrďte svůj e-mail kliknutím na odkaz, který jsme vám zaslali na {{email}}."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.confirm_email.open_outlook.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Open Outlook"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Otevřít Outlook"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.confirm_email.open_gmail.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Open Gmail"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Otevřít Gmail"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.confirm_email.open_seznam.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Open Seznam"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Otevřít Seznam"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_statistics_title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Statistics"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Statistiky"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_completed_lessons.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Completed lessons"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Absolvované lekce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_available_balance.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Available balance"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Dostupný zůstatek"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_available_balance_tooltip.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Available balance indicates the amount of money that you can use to book your lessons."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Dostupný zůstatek představuje částku, kterou můžete použít na rezervaci lekcí."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_deposit_money.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Deposit money"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vložte peníze"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_your_tutors.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Your tutors"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vaši lektoři"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_book_lesson.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Book"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Rezervovat"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_message.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Message"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zpráva"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_upcoming_lessons.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Upcoming lessons"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nadcházející výuka"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.hero.student_heading_first_part.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "You can speak fluently"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Dokážete plynule mluvit"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.hero.student_heading_second_part.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "with lessons tailored to your needs"
+			},
+			{
+				"languageCode": "cs",
+				"value": "s lekcemi přizpůsobenými vašim potřebám"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.hero.student_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Elevate your language skills with our top-rated online 1 on 1 tutoring services. Receive expert guidance from the comfort of your home and achieve your language learning goals faster. Book your session today and start speaking like a native!"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zlepšete své jazykové dovednosti pomocí našich nejlépe hodnocených online služeb doučování 1 na 1. Získejte odborné vedení z pohodlí domova a dosáhněte svých jazykových cílů rychleji. Rezervujte si hodinu ještě dnes a začněte mluvit jako rodilý mluvčí!"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.hero.student_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Get started"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Začněte"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.hero.subject_heading.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Become fluent in <span class=\"mark\">{{subject}}</span>"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Mluvte plynule <span class=\"mark\">{{subject}}</span>"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.hero.subject_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Our expert tutors offer personalized language lessons that cater to your specific goals and learning style, so you can become fluent in a new language on your terms. Start your journey towards fluency today."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Naši odborní lektoři nabízejí individuální jazykové lekce, které se přizpůsobí vašim konkrétním cílům a stylu učení, takže se můžete plynule naučit nový jazyk podle svých vlastních podmínek. Začněte svou cestu k plynulosti ještě dnes."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.hero.subject_text_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Get started"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Začněte"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_lp.main_title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "You could earn"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Můžete vydělat"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_lp.main_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "<b>{{numberOfLessons}}</b> lessons at an estimated <b>{{price}}</b> per lesson"
+			},
+			{
+				"languageCode": "cs",
+				"value": "<b>{{numberOfLessons}}</b> hodin ve výši <b>{{price}}</b> za hodinu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_lp.second_part_calculation.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Kč per lesson"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Kč za lekci"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_lp.button_text.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Get started"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Začit"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.matching_tutors.section_title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Matching tutors"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Shodní lektoři"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.matching_tutors.button_text.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Explore all"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zobrazit všechny"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_wallet_title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Wallet"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Peněženka"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_welcome_back.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Welcome back,"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vítejte zpátky,"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_goal.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Goal"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Cíle"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_weekly_goal.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Weekly goal"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Týdenní cíle"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_challenge.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Challenge"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Výzva"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_challenge_tooltip.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Every time you complete your setted goal you will receive trophy which shows you how many times you have completed your set goal."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Pokaždé, když splníte stanovený cíl, získáte trofej, která vám ukáže, kolikrát jste stanovený cíl splnili. "
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_overview.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Overview"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Přehled"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_tutors.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Tutors"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Učitelé"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_transactions.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Transactions"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Transakce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_download.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Download"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Stáhnout"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_download_all.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Download all"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Stáhnout všechny"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_lesson.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Lesson"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Lekce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_refund.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Refund"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vrácení peněz"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_referral.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Referral"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Doporučení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_welcome_back.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Welcome back,"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vítejte zpět,"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_overview.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Overview"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Přehled"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_students.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Students"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Studenti"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_past_lessons.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Past lessons"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Předchozí lekce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_review.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Reviews"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Hodnocení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_transactions.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Transactions"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Transakce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_withdraw_money.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Withdraw money"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vybrat peníze"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_available_balance.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Available balance"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Dostupný zůstatek"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_available_balance_tooltip.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Available amount is the amount you can widthdraw to your bank account"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Dostupný zůstatek představuje částku, kterou můžete vybrat na svůj bankovní účet"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_scheduled_balance.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Scheduled balance"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Plánovaný zůstatek"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_scheduled_balance_tooltip.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Scheduled balance is the amount that will be available after 7 days from the end of the lessons."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Plánovaný zůstatek je částka, která bude k dispozici po 7 dnech od ukončení výuky."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_wallet.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Wallet"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Peněženka"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_message.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Message"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zpráva"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_new_students.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "New students"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Noví studenti"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_statistics.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Statistics"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Statistiky"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_your_rating.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Your rating"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vaše hodnocení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_number_of_reviews.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Number of reviews"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Počet hodnocení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_revenue_this_month.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Revenue this month"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Příjmy tento měsíc"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_revenue_this_year.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Revenue this year"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Příjmy tento rok"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_withdraw_this_month.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Withdraw this month"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vyběry v tomto měsíci"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_withdraw_this_year.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Withdraw this year"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vyběry tohoto roku"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_total_revenue.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Total revenue"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Celkové příjmy"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_lesson.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Lesson"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Lekce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_withdraw.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Withdraw"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Výběr peněz"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_download.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Downlaod"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Stáhnout"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_download_all.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Download all"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Stáhnout vše"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_completed_lessons.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Completed lessons"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Dokončené lekce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_dashboard_upcoming_lessons.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Upcoming lessons"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nadcházející lekce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_deposit.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Deposit money"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vložte peníze"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_deposit_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Please enter the amount that you want to deposit"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zadejte částku, kterou chcete vložit"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.student_dashboard_deposit_text_field_placeholder.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Enter the amount in Kč"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zadejte částku v Kč"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.write_a_review.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Write a review"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Napište recenzi"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.report_issue.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Report issue"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nahlásit problém"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.review.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Review"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Recenze"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.review_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Write a review for the tutor..."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Napište recenzi na lektora..."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.review_send.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Send"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Odeslat"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.tell_us_what_happend.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Tell us what happend"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Řekněte nám, co se stalo?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.we_agree_to_reschedule.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "We agreed to reschedule"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Dohodli jsme se na změně termínu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.we_had_technical_problem.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "We had technical issues"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Měli jsme technické problémy"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.i_was_absent.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "I was absent"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nebyl jsem přítomen"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.tutor_didnot_match_my_expecations.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Tutor didn't match my expectations"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Učitel neodpovídal mým očekáváním"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.tutor_was_absent.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Tutor was absent"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Učitel nebyl přítomen"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.other_issue.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Other issue"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jiný důvod"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.tell_us_more.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Tell us more"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Řekněte nám více"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.submit_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Submit"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Odeslat"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.join_lesson.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Join lesson"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Připojit se k lekci"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.write_a_message.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Write a message"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Napsat zprávu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.cancel_lesson.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Cancel lesson"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zrušit lekci"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.cancel_lesson_placeholder.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Write a reason for the cancelation..."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Napište důvod zrušení rezervace..."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile.reservations.cancel_lesson_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Cancel lesson"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Cancel lesson"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.blog.learn_more.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Learn more"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zjistit více"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject.title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "What language do you want to learn?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jaký jazyk se chcete naučit?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject.continue_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Continue"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Pokračovat"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject.skip_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Skip"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Přeskočit"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject.english.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "English"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Anglický"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject.czech.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Czech"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Česky"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject.spanish.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Spanish"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Španělsky"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject.german.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "German"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Německý"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject.french.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "French"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Francouzský"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject.italian.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Italian"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Italský"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.profile_icon.notifications.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Notifications"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Notifikace"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject_level.title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "What language level are you at?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Na jaké jazykové úrovni jste?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject_level.continue_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Continue"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Pokračovat"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject_level.one.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "I know some words and phrases"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Znám pár slov a frází"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject_level.two.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "I can have simple conversations"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Dokážu vést jednoduchou konverzaci"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject_level.three.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "I am intermediate or higher"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jsem středně pokročilý nebo vyšší"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_reason_level.title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Why are you learning?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Proč se učíte?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_reason.continue_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Continue"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Pokračovat"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_reason.one.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Support my education"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Podpora mého vzdělání"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_reason.two.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Boost my career"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zlepšit svou kariéru"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_reason.three.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Move abroad"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Přestěhování do zahraničí"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_reason.four.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Connect with people"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Spojit se s lidmi"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_reason.five.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Language for kids"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jazyk pro děti"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_reason.six.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Spend time productively"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Produktivní trávení času"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_reason.seven.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Just for fun"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jen pro zabavu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.title.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Weekly goal"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Týdenní cíl"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "What’s your weekly learning goal?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jaký je váš týdenní cíl učení?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.start_learning_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Start learning"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Začít se učit"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.one.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "1 lesson/week"
+			},
+			{
+				"languageCode": "cs",
+				"value": "1 lekcí/týden"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.one_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Casual"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Příležitostně"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.two.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "2 lesson/week"
+			},
+			{
+				"languageCode": "cs",
+				"value": "2 lekcí/týden"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.two_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Regular"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Pravidelně"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.three.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "3 lesson/week"
+			},
+			{
+				"languageCode": "cs",
+				"value": "3 lekcí/týden"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.three_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Serious"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Závažné"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.four.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "4 lesson/week"
+			},
+			{
+				"languageCode": "cs",
+				"value": "4 lekcí/týden"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.four_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Intense"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Intenzivně"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.five.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "5 lesson/week"
+			},
+			{
+				"languageCode": "cs",
+				"value": "5 lekcí/týden"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_goal.five_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Genius"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Genius"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.notifications.booked_the_lesson.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "booked the lesson"
+			},
+			{
+				"languageCode": "cs",
+				"value": "zarezervoval(a) hodinu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.notifications.canceled_the_lesson.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "canceled the lesson"
+			},
+			{
+				"languageCode": "cs",
+				"value": "zrušil(a) hodinu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.notifications.visited_your_profile.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "visited your profile"
+			},
+			{
+				"languageCode": "cs",
+				"value": "navštívil váš profil"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.notifications.messaged_you.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "messaged you"
+			},
+			{
+				"languageCode": "cs",
+				"value": "vám poslal zprávu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.notifications.left_a_review.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "left a review"
+			},
+			{
+				"languageCode": "cs",
+				"value": "napsal recenzi"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.notifications.write_a_message_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Write a message"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Napište zprávu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.notifications.open_message_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Open message"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Otevřít zprávu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.notifications.mark_all_as_read_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Mark all as read"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Označit vše jako přečtené"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.get_started.button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Get started"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Začít"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.next.button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Next"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Další"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.back.button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Back"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zpět"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.easy_to_get_started.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "It’s easy to get started teaching on Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Začít učit na Yaspeaku je snadné"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.tell_us_about_yourself.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "1. Tell us about yourself"
+			},
+			{
+				"languageCode": "cs",
+				"value": "1. Řekněte nám o sobě"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.tell_us_about_yourself.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Share some basic info, like your name, surname and where you come from."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Podělte se o základní informace, jako je vaše jméno, příjmení a místo, odkud pocházíte."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.stand_out.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "2. Stand out"
+			},
+			{
+				"languageCode": "cs",
+				"value": "2. Vynikněte v davu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.stand_out.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Add photos and description of yourself to help you stand out. P.S. Don’t worry, you look good."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Přidejte své fotografie a popis, který vám pomůže vyniknout. P.S. Nebojte se, vypadáte dobře."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "3. Specialization"
+			},
+			{
+				"languageCode": "cs",
+				"value": "3. Specializace"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Find your focus group and level of the students that you want to focus to."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Najděte si cílovou skupinu a úroveň studentů, na které se chcete zaměřit."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.price_label.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "4. Price"
+			},
+			{
+				"languageCode": "cs",
+				"value": "4. Cena"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.price_label.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Set your price suit you the best."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nastavte si cenu, která vám bude nejlépe vyhovovat."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.approvals.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "5. Approvals"
+			},
+			{
+				"languageCode": "cs",
+				"value": "5. Schválení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.approvals_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "We will go carefully through your application. Once we are done we will give you a quick call."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vaši žádost pečlivě projdeme. Jakmile budeme hotovi, rychle vám zavoláme."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Account"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Účet"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Lorem ipsum dolor sit amet consectetur. Libero eget placerat cursus nisl blandit."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Lorem ipsum dolor sit amet consectetur. Libero eget placerat cursus nisl blandit."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account_upload_photo.button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Upload photo"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nahrát fotografii"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.first_name.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "First name"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jméno"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.first_name_placeholder.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Enter your first name"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zadejte své jméno"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.last_name.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Last name"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Příjmení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.last_name_placeholder.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Enter your last name"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zadejte své příjmení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.email.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Email"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Email"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.email_placeholder.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Enter your email"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zadejte svůj e-mail"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.phone_number.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Phone number"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Telefonní číslo"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.phone_number_placeholder.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Enter your phone number"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zadejte své telefonní číslo"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.origin_country.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Origin country"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Země původu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.origin_country_placeholder.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Select origin country"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vyberte zemi původu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.language.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Language"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jazyk"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.language_placeholder.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Select language"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vyberte jazyk"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.language_level.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Language level"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Úroveň jazyka"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.account.language_level_placeholder.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Select level"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vyberte úroveň"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.subject.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Subject"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Předmět"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.subject_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Choose the subject you want to teach"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Vyberte si předmět, který chcete vyučovat"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.subject_english.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "English"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Angličtina"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.subject_czech.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Czech"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Čeština"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.subject_german.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "German"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Němčina"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.subject_spanish.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Spanish"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Španělština"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.subject_french.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "French"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Francouzština"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Description"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Popis"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.description_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Share what makes you special."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Podělte se o to, čím jste výjimeční."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.description_placeholder.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Describe yourself in a few sentences"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Popište se několika větami"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.upload_certificates.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Certificates"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Certifikáty"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.upload_certificates_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Upload certificates if you have any"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nahrajte certifikáty, pokud nějaké máte"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.upload_certificates_drag_and_drop.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Drag your certificate(s) here"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Přetáhněte certifikát(y) sem"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.upload_certificates_select_multiple_files.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Select multiple files at once"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Výběr více souborů najednou"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.upload_certificates_upload_from_device.button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Upload from your device"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nahrát ze svého zařízení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.teaching_expirience.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Tell us about your teaching experience"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Řekněte nám o svých zkušenostech s výukou"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.teaching_expirience_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Do you have any teaching experience?"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Máte nějakou pedagogickou praxi?"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.teaching_expirience_true.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Yes, I have teaching experience"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Ano, mám zkušenosti s výukou"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.teaching_expirience_false.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "No, I don't have any teaching experience."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Ne, nemám žádné zkušenosti s výukou."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.student_level.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Focus on student level"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zaměření na úroveň studentů"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.student_level_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Choose the language level of the students that you would like to teach"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zvolte jazykovou úroveň studentů, kterou chcete které chcete vyučovat"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.student_level_one.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Beginners"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Začátečníci"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.student_level_two.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Advanced"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Mírně pokročilý"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.student_level_three.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Intermediate"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Středně pokročilý"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Tell us what is your specialization"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Řekněte nám, jaká je vaše specializace"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Let everyone know what aspects you can help with the most, so you get more students that need this specific skill of yours."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Dejte všem vědět, s jakými aspekty můžete pomoci nejvíce, abyste získali více studentů, kteří potřebují tuto vaši specifickou dovednost."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_one.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Support their education"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Podpořit jejich vzdělávání"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_one_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Certificates (TOEFL, Cambridge), Grammar"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Certifikáty (TOEFL, Cambridge), gramatika"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_two.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Boost theirs careers"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zlepšete jejich kariéru"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_two_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Business, Email, Speaking, Pronunciation"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Obchodní, E-mail, Mluvení, Výslovnost"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_three.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Move abroad"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Stěhování do zahraničí"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_three_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Vocabulary, Grammar, Pronunciation "
+			},
+			{
+				"languageCode": "cs",
+				"value": "Slovní zásoba, gramatika, výslovnost "
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_four.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Connect with people"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Spojení s lidmi"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_four_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Vocabulary"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Slovní zásoba"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_five.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Language for kids"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jazyk pro děti"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_five_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Vocabulary, Grammar, Reading, Listening "
+			},
+			{
+				"languageCode": "cs",
+				"value": "Slovní zásoba, gramatika, čtení, poslech "
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_six.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Self improvement"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Sebezdokonalení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_six_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Vocabulary, Grammar, Reading, Listening"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Slovní zásoba, gramatika, čtení, poslech "
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_seven.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Just for fun"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jen tak pro zábavu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.specialization_step_seven_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Interesting topics, Speaking, Pronunciation"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zajímavá témata, Mluvení, Výslovnost"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.price.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Now set your price"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nyní si stanovte cenu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.price_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "You can change it anytime."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Můžete ji kdykoli změnit."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.price_per_lesson.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Per lesson"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Na hodinu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.final_step.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Thank you for submitting the application!"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Děkujeme vám za odeslání žádosti!"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.final_step_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "We will let you know as soon as possible."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Dáme vám vědět, jakmile to bude možné."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_sign_up.final_step_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Back to main page"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zpět na hlavní stránku"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.choose_subject_level.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Choose the language level of the students that you would like to teach"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zvolte jazykovou úroveň studentů, které chcete učit"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard_overview.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Overview"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Přehled"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard_tutors.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Tutors"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Učitelé"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard_students.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Students"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Studenti"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard_reviews.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Reviews"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Recenze"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard_video_quality.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Video quality"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Kvalita videa"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard_attendece_monitoring.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Attendence monitoring"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Monitorování docházky"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard_transactions.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Transactions"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Transakce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.message_button.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Message"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zpráva"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.write_a_message.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Write a message"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Napsat zprávu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.approve.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Approve"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Schválit"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.refuse.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Refuse"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Odmítnout"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.delete.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Delete"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Smazat"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.statistics.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Statistics"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Statistiky"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.average_review_score.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Average review score"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Průměrné skóre recenzí"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.number_of_ratings.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Number of ratings"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Počet hodnocení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.video_call_rating.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Video call rating"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Hodnocení videohovorů"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.financial_stastistics.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Financial statistics"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Finanční statistiky"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.video_call_stastistics.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Video call statistics"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Statistiky videohovorů"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.revenue_this_month.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Revenue this month"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Příjmy v tomto měsíci"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.withdraw_this_month.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Withdraw this month"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Výběry tento měsíc"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.revenue_this_year.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Revenue this year"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Příjmy v tomto roce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.net_income_this_year.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Net income this year"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Čistý příjem v tomto roce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.net_income_this_month.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Net income this month"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Čistý příjem za tento měsíc"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.withdraw_this_year.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Withdraw this year"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Výběry tento rok"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.total_revenue.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Total revenue"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Celkové příjmy"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.admin_dashboard.download.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Download"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Download"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_public_profile.specializations.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Specialization"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Specializace"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_public_profile.statistics.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Statistics"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Statistiky"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_public_profile.statistics_lessons.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Lessons"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Lekce"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_public_profile.statistics_students.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Students"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Studenti"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_public_profile.statistics_rating.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Rating"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Hodnocení"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_public_profile.statistics_attendence.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Attendence"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Docházka"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_testemonials.description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "As a tutor on this platform, I appreciate the professionalism and support provided. It's a great platform to connect with motivated language learners."
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jako lektor na této platformě oceňuji profesionalitu a poskytovanou podporu. Je to skvělá platforma pro spojení s motivovanými studenty jazyků."
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_testemonials.tutor_name.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Jessica Alba"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Jessica Alba"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.tutor_testemonials.tutor_description.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Tutor from May 2023"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Lektor od května 2023"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.contact_tutor_popup.write_message.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Write a message"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Napište zprávu"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.dashboard.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Dashboard | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Dashboard | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.messages.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Messages | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zprávy | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.home_page.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Learn any language online | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Naučte se jakýkoli jazyk online | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.page_not_found.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Page not found | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Stránka nebyla nalezena | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.privacy_policy.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Privacy policy | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Ochrana osobních údajů | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.terms_of_use.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Terms of use | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Podmínky použití | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.find_a_tutor.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Find a tutor | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Najděte si učitele | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.become_a_tutor.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Become a tutor | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Staňte se lektorem | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.registration.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Registration | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Registrace | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.profile.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Profile | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Profil | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.confirm_your_email.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Confirm your email | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Potvrďte svůj e-mail | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.forgot_password.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Forgot password | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Zapomenuté heslo | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.settings.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Settings | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nastavení | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.tutor_public_page.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Learn {{language}} with {{tutorName}} | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Nauč se {{language}} s {{tutorName}} | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.subject_page.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "{{language}} tutors | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "{{language}} tutors | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.meeting_page.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "Meeting with {{opponentName}} | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Hovor s {{opponentName}} | Yaspeak"
+			}
+		]
+	},
+	{
+		"translationKey": "fe.page_title.you_got_message.name",
+		"values": [
+			{
+				"languageCode": "en",
+				"value": "You have {{countOfUnreadMessages}} new messages | Yaspeak"
+			},
+			{
+				"languageCode": "cs",
+				"value": "Máte {{countOfUnreadMessages}} nových zprav | Yaspeak"
+			}
+		]
+	}
+]

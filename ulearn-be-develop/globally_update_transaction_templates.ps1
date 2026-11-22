@@ -1,0 +1,3 @@
+./update_transaction_templates.ps1
+./dev_update_transaction_templates.ps1
+./prod_update_transaction_templates.ps1

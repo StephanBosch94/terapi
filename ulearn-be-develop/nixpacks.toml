@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["dotnet-sdk"]
+
+[phases.build]
+cmds = ['export ASPNETCORE_ENVIRONMENT=Stage']
+
+[start]
+cmd = 'dotnet run --project ./backend/ULearn.Be.Api/ULearn.Be.Api.csproj --no-launch-profile -c Release -o out'

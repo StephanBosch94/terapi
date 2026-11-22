@@ -1,0 +1,1 @@
+dotnet build .\backend\ULearn.Db.Tools\ -c Development

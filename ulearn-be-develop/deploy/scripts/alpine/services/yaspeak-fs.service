@@ -1,0 +1,17 @@
+[Unit]
+Description=FileService of yaspeak.com
+
+[Service]
+WorkingDirectory=/var/www/fs
+ExecStart=/home/yaspeak_admin/.dotnet/dotnet /var/www/fs/ULearn.Be.File.Api.dll --urls=http://0.0.0.0:5100
+Restart=always
+# Restart service after 10 seconds if the dotnet service crashes:
+RestartSec=10
+KillSignal=SIGINT
+SyslogIdentifier=yaspeak-fs
+User=root
+Environment=ASPNETCORE_ENVIRONMENT=Int
+Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
+
+[Install]
+WantedBy=multi-user.target

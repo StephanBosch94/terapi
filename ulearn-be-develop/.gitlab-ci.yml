@@ -1,0 +1,72 @@
+# Official docker image.
+image: docker:latest
+
+variables:
+  BE_API_OUTPUT_DIR: beapi
+  VM_RUNTIME: linux-x64
+  
+stages:
+  - deploy_int
+  - deploy_prod
+  - restart_services
+
+deploy_int:
+  stage: deploy_int
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "develop"
+  before_script:
+    - apk add dotnet6-sdk
+    - apk add --update openssh-client bash
+    - apk add zip
+    - eval $(ssh-agent -s)
+    - bash -c 'ssh-add <(echo "$YASPEAK_DEV_SSH_KEY")'
+    - mkdir ~/.ssh
+    - ssh-keyscan $YASPEAK_DEV_IP >> ~/.ssh/known_hosts
+  script:
+    - dotnet publish ./backend/ULearn.Be.File.Api/ULearn.Be.File.Api.csproj --no-self-contained -r $VM_RUNTIME -c Release --output dist-fs
+    - dotnet publish ./backend/ULearn.Be.Api/ULearn.Be.Api.csproj --no-self-contained -r $VM_RUNTIME -c Release --output dist-beapi
+    - dotnet publish ./backend/Yaspeak.Be.Scheduler/Yaspeak.Be.Scheduler.csproj --no-self-contained -r $VM_RUNTIME -c Release --output dist-scheduler
+    - zip -r dist-beapi.zip ./dist-beapi
+    - zip -r dist-fs.zip ./dist-fs
+    - zip -r dist-scheduler.zip ./dist-scheduler
+    - scp -r dist-beapi.zip $YASPEAK_DEV_USER@$YASPEAK_DEV_IP:.
+    - scp -r dist-fs.zip $YASPEAK_DEV_USER@$YASPEAK_DEV_IP:.
+    - scp -r dist-scheduler.zip $YASPEAK_DEV_USER@$YASPEAK_DEV_IP:.
+    - ssh $YASPEAK_DEV_USER@$YASPEAK_DEV_IP 'bash -s' < ./deploy/scripts/deploy_int.sh
+
+deploy_prod:
+  stage: deploy_prod
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "prod"
+  before_script:
+    - apk add dotnet6-sdk
+    - apk add --update openssh-client bash
+    - apk add zip
+    - eval $(ssh-agent -s)
+    - bash -c 'ssh-add <(echo "$YASPEAK_DEV_SSH_KEY")'
+    - mkdir ~/.ssh
+    - ssh-keyscan $YASPEAK_DEV_IP >> ~/.ssh/known_hosts
+  script:
+    - dotnet publish ./backend/ULearn.Be.File.Api/ULearn.Be.File.Api.csproj --no-self-contained -r $VM_RUNTIME -c Release --output dist-fs-prod
+    - dotnet publish ./backend/ULearn.Be.Api/ULearn.Be.Api.csproj --no-self-contained -r $VM_RUNTIME -c Release --output dist-beapi-prod
+    - dotnet publish ./backend/Yaspeak.Be.Scheduler/Yaspeak.Be.Scheduler.csproj --no-self-contained -r $VM_RUNTIME -c Release --output dist-scheduler-prod
+    - zip -r dist-beapi-prod.zip ./dist-beapi-prod
+    - zip -r dist-fs-prod.zip ./dist-fs-prod
+    - zip -r dist-scheduler-prod.zip ./dist-scheduler-prod
+    - scp -r dist-beapi-prod.zip $YASPEAK_DEV_USER@$YASPEAK_DEV_IP:.
+    - scp -r dist-fs-prod.zip $YASPEAK_DEV_USER@$YASPEAK_DEV_IP:.
+    - scp -r dist-scheduler-prod.zip $YASPEAK_DEV_USER@$YASPEAK_DEV_IP:.
+    - ssh $YASPEAK_DEV_USER@$YASPEAK_DEV_IP 'bash -s' < ./deploy/scripts/deploy_prod.sh
+
+restart_services:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "api" || $CI_PIPELINE_SOURCE == "web" || $CI_PIPELINE_SOURCE == "trigger"
+  stage: restart_services
+  before_script:
+    - apk add --update openssh-client bash
+    - eval $(ssh-agent -s)
+    - bash -c 'ssh-add <(echo "$YASPEAK_DEV_SSH_KEY")'
+    - mkdir ~/.ssh
+    - ssh-keyscan $YASPEAK_DEV_IP >> ~/.ssh/known_hosts
+  script:
+    - ssh $YASPEAK_DEV_USER@$YASPEAK_DEV_IP 'bash -s' < ./deploy/scripts/restart_services.sh

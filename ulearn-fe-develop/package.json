@@ -1,0 +1,89 @@
+{
+  "name": "ulearn-fe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emoji-mart/data": "^1.1.0",
+    "@emoji-mart/react": "^1.1.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@hotjar/browser": "^1.0.7",
+    "@microsoft/signalr": "^7.0.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.10.0",
+    "@reduxjs/toolkit": "^1.8.4",
+    "@svgr/webpack": "^6.3.1",
+    "@types/js-cookie": "^3.0.3",
+    "@types/node": "^18.7.3",
+    "@types/react": "^18.0.17",
+    "@types/react-avatar-editor": "^13.0.0",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-gtm-module": "^2.0.1",
+    "@types/simple-peer": "^9.11.5",
+    "@videosdk.live/react-sdk": "^0.1.74",
+    "axios": "^0.27.2",
+    "emoji-mart": "^5.4.0",
+    "eslint-config-next": "^13.4.4",
+    "framer-motion": "^10.0.1",
+    "idb": "^7.0.2",
+    "immer": "^9.0.15",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "next": "^13.4.4",
+    "next-seo": "^6.0.0",
+    "notistack": "^3.0.1",
+    "query-string": "^7.1.3",
+    "react": "^18.2.0",
+    "react-avatar-editor": "^13.0.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.2",
+    "react-flag-kit": "^1.1.1",
+    "react-google-one-tap-login": "^0.1.1",
+    "react-gtm-module": "^2.0.11",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-moment": "^1.1.2",
+    "react-oauth-popup": "^1.0.5",
+    "react-phone-input-2": "^2.15.1",
+    "react-redux": "^8.0.2",
+    "react-svg": "^16.1.22",
+    "react-swipeable": "^7.0.0",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "request-ip": "^3.3.0",
+    "simple-peer": "^9.11.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start -p $PORT",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "next/core-web-vitals"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/request-ip": "^0.0.40",
+    "eslint": "^8.22.0",
+    "next-sitemap": "^4.1.3"
+  }
+}

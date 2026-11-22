@@ -1,0 +1,18 @@
+#sudo nano /etc/systemd/system/yaspeak-beapi.service
+[Unit]
+Description=Example .NET Web API App running on Linux
+
+[Service]
+WorkingDirectory=/var/www/beapi
+ExecStart=/home/yaspeak_admin/.dotnet/dotnet /var/www/beapi/ULearn.Be.Api.dll
+Restart=always
+# Restart service after 10 seconds if the dotnet service crashes:
+RestartSec=10
+KillSignal=SIGINT
+SyslogIdentifier=dotnet-example
+User=root
+Environment=ASPNETCORE_ENVIRONMENT=Int
+Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
+
+[Install]
+WantedBy=multi-user.target

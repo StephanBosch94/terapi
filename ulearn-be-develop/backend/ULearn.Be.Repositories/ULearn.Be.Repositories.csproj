@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Magick.NET.Core" Version="12.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="6.0.6" />
+        <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.21.0" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.21.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ULearn.Be.Common.Services\ULearn.Be.Common.Services.csproj" />
+        <ProjectReference Include="..\ULearn.Be.Common\ULearn.Be.Common.csproj" />
+        <ProjectReference Include="..\ULearn.Be.Data\ULearn.Be.Data.csproj" />
+        <ProjectReference Include="..\ULearn.Be.Models\ULearn.Be.Models.csproj" />
+        <ProjectReference Include="..\ULearn.Be.Providers\ULearn.Be.Providers.csproj" />
+    </ItemGroup>
+</Project>

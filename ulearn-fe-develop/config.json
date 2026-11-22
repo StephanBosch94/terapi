@@ -1,0 +1,4 @@
+{
+  "BE_API_URL": "http://localhost:5000/",
+  "WEBSOCKET_API_ENDPOINT": "http://localhost:5000/"
+}

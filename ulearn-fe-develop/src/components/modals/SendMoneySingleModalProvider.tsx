@@ -1,0 +1,166 @@
+import Box from "@mui/material/Box";
+import { styled, experimental_sx as sx } from "@mui/material/styles";
+import { snackbarConstants } from "components/core/Snackbar";
+import { useTranslation } from "components/core/TranslationProvider";
+import CircularProgressCustom from "components/styles/CircularProgressStyled";
+import { CloseIconButton } from "components/styles/CloseIconModalStyled";
+import { ModalStyled } from "components/styles/ModalStyled";
+import { PrimaryButtonRectangle } from "components/styles/PrimaryButtonRectangle";
+import { TextFieldStyled } from "components/styles/TextFieldStyled";
+import Tooltip from "components/styles/Tooltip";
+import { ModalBoxStyled } from "components/styles/boxes/ModalBoxStyled";
+import { COLORS } from "components/styles/constants/ColorsConstatnts";
+import { LoadingStatusEnum } from "core/constants/enums/LoadingStatusEnum";
+import { TRANSLATION_KEYS } from "core/constants/translationConstants";
+import { contextFactoryCreate, useAppDispatch, useAppSelector } from "core/redux/reduxHooks";
+import { depositMoney, selectDepositMoneyResponse, selectDepositMoneyStatus, selectTopUpUserPaymentStatus, selectUserWalletStatistics, setUserWalletStatistics, topUpUserPayment } from "core/redux/userWalletSlice";
+import { useRouter } from "next/router";
+import { enqueueSnackbar, useSnackbar } from "notistack";
+import { createContext, useEffect, useRef, useState } from "react";
+import { getProfilePhotoThumbnailUrl } from "core/services/Utils/imageUtil";
+import { FilterEmployeesResponseBody, selectShortUserInfo, setEmployeesFilter } from "core/redux/userSlice";
+import H5Styled from "components/styles/typography/H5Styled";
+import H3Styled from "components/styles/typography/H3Styled";
+import Avatar from "@mui/material/Avatar";
+import Body1Styled from "components/styles/typography/Body1Styled";
+import CaptionTextStyled from "components/styles/typography/CaptionTextStyled";
+import { AppendTypeEnum } from "core/constants/enums/AppendTypeEnum";
+import { getUserName } from "core/services/Utils/userUtils";
+
+
+const PrimaryButtonActiveStyled = styled(PrimaryButtonRectangle)(() => sx({
+    width: "100%"
+})) as typeof PrimaryButtonRectangle;
+
+const PrimaryButtonNonActiveStyled = styled(PrimaryButtonRectangle)({
+    backgroundColor: COLORS.BLACK_10,
+    color: COLORS.WHITE,
+    width: "100%",
+    ":hover": {
+        backgroundColor: COLORS.BLACK_10,
+        color: COLORS.WHITE,
+        cursor: "initial"
+    }
+}) as typeof PrimaryButtonRectangle;
+
+const AvatarStyledSmall = styled(Avatar)({
+    width: "40px",
+    height: "40px"
+}) as typeof Avatar;
+
+type SendMoneySingleModalContextType = {
+    setOpen: () => void
+} | undefined;
+
+const SendMoneySingleModalContext = createContext<SendMoneySingleModalContextType>(undefined);
+
+const SendMoneySingleModalProvider = ({ children, user }: { children: any, user: FilterEmployeesResponseBody['data'][0] }) => {
+    const { t } = useTranslation();
+    const [open, setOpen] = useState(false);
+    const [amount, setAmount] = useState<number | undefined>();
+    const dispatch = useAppDispatch();
+    const submitted = useRef(false);
+    const { enqueueSnackbar } = useSnackbar();
+    const topUpUserPaymentStatus = useAppSelector(selectTopUpUserPaymentStatus);
+    const walletStatistics = useAppSelector(selectUserWalletStatistics);
+
+    useEffect(() => {
+        document.addEventListener('keydown', handleKeydown);
+        return () => {
+            document.removeEventListener('keydown', handleKeydown);
+        }
+    });
+
+    useEffect(() => {
+        if (!submitted.current) return;
+        if (topUpUserPaymentStatus === LoadingStatusEnum.Loaded) {
+            enqueueSnackbar(t(TRANSLATION_KEYS.COMPANY_DASHBOARD.SEND_MONEY_MODAL.SUCCESSFULLY_SEND_MONEY), { variant: "success" });
+            submitted.current = false;
+        }
+        else if (topUpUserPaymentStatus === LoadingStatusEnum.Error) {
+            enqueueSnackbar(t(TRANSLATION_KEYS.COMPANY_DASHBOARD.SEND_MONEY_MODAL.FAILED_TO_SEND_MONEY), { variant: "error", autoHideDuration: snackbarConstants.autohideErrorDuration });
+            submitted.current = false;
+        };
+    }, [topUpUserPaymentStatus]);
+
+    const handleClose = () => {
+        setOpen(false);
+    }
+
+    const handleOpen = () => {
+        setOpen(true);
+    }
+
+    const handleChangeAmount = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const value = e.target.value;
+        setAmount(parseInt(value));
+    }
+
+    const handleClick = async () => {
+        submitted.current = true;
+        if (!walletStatistics) return;
+        if (!amount) {
+            enqueueSnackbar(t(TRANSLATION_KEYS.COMPANY_DASHBOARD.SEND_MONEY_MODAL.AMOUNT_MUST_BE_GREATER_THEN_ZERO), { variant: "error", autoHideDuration: snackbarConstants.autohideErrorDuration });
+            return;
+        }
+        if (!walletStatistics.amount || walletStatistics.amount < amount) {
+            enqueueSnackbar(t(TRANSLATION_KEYS.COMPANY_DASHBOARD.SEND_MONEY_MODAL.NOT_ENOUGH_MONEY), { variant: "error", autoHideDuration: snackbarConstants.autohideErrorDuration });
+            return;
+        }
+        await dispatch(topUpUserPayment({ amount, userId: user.userId! }))
+        await dispatch(setUserWalletStatistics())
+        await dispatch(setEmployeesFilter({
+            appendType: AppendTypeEnum.None,
+            request: {
+                skip: 0,
+                take: 200
+            }
+        }))
+        setOpen(false);
+    }
+
+    const handleKeydown = (e: KeyboardEvent) => {
+        if (e.repeat) {
+            return;
+        }
+        if (!open) return;
+        if (e.key === 'Enter') {
+            handleClick();
+        }
+    }
+
+    return (
+        <SendMoneySingleModalContext.Provider value={{
+            setOpen: handleOpen
+        }}>
+            {children}
+            <ModalStyled open={open} onClose={handleClose}>
+                <ModalBoxStyled>
+                    <Box sx={{ backgroundColor: COLORS.WHITE, display: "flex", flexDirection: "column", gap: "24px" }}>
+                        <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                            <H3Styled>{t(TRANSLATION_KEYS.COMPANY_DASHBOARD.SEND_MONEY_MODAL.SEND_MONEY_TITLE)}</H3Styled>
+                            <CloseIconButton onClick={handleClose} />
+                        </Box>
+                        <Box sx={{ display: "flex", justifyContent: "start", flexFlow: "row", gap: "12px", alignItems: "center" }}>
+                            <AvatarStyledSmall src={getProfilePhotoThumbnailUrl(user)} />
+                            <Box sx={{ display: "flex", justifyContent: "center", flexFlow: "column", gap: "4px" }}>
+                                <H5Styled>{getUserName(user)}</H5Styled>
+                                <Body1Styled dangerouslySetInnerHTML={{ __html: t(TRANSLATION_KEYS.COMPANY_DASHBOARD.AVAILABLE_BALANCE, { amount: `${user.wallet?.amount ?? 0} Kč` }) }} />
+                            </Box>
+                        </Box>
+                        <Box sx={{ display: "flex", justifyContent: "space-between", width: "100%", flexFlow: "column noWrap", gap: "4px" }} >
+                            <CaptionTextStyled sx={{ color: COLORS.BLACK }}>{t(TRANSLATION_KEYS.COMPANY_DASHBOARD.AMOUNT)}</CaptionTextStyled>
+                            <TextFieldStyled type="number" value={amount} onChange={handleChangeAmount} placeholder={t(TRANSLATION_KEYS.COMPANY_DASHBOARD.SEND_MONEY_MODAL.AMOUNT_SEND_PLACEHOLDER)} />
+                        </Box>
+                        <PrimaryButtonActiveStyled onClick={handleClick}>
+                            {topUpUserPaymentStatus !== LoadingStatusEnum.Loading ? t(TRANSLATION_KEYS.COMPANY_DASHBOARD.SEND_MONEY_MODAL.SEND_MONEY_BUTTON) : <CircularProgressCustom color={COLORS.WHITE} />}
+                        </PrimaryButtonActiveStyled>
+                    </Box>
+                </ModalBoxStyled>
+            </ModalStyled>
+        </SendMoneySingleModalContext.Provider >
+    )
+}
+
+export const useSendMoneySingleModalContext = contextFactoryCreate('SendMoneySingleModal', SendMoneySingleModalContext);
+export default SendMoneySingleModalProvider;

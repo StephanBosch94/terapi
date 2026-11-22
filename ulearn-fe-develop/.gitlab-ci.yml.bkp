@@ -1,0 +1,32 @@
+default:
+  image: node:latest
+
+deploy_preview:
+  stage: deploy
+  except:
+    - develop
+  script:
+    - npm install --global vercel
+    - vercel pull --yes --environment=preview --token=$VERCEL_TOKEN
+    - vercel build --token=$VERCEL_TOKEN
+    - vercel deploy --prebuilt --token=$VERCEL_TOKEN
+
+deploy_develop_int:
+  stage: deploy
+  only:
+    - develop
+  before_script:
+    - apt-get update && apt-get install -y ssh zip bash
+    - eval $(ssh-agent -s)
+    - bash -c 'ssh-add <(echo "$YASPEAK_DEV_SSH_KEY")'
+    - mkdir ~/.ssh
+    - ssh-keyscan $YASPEAK_DEV_IP >> ~/.ssh/known_hosts
+  script:
+    - npm install
+    - npm run build
+    - mkdir fe
+    - mv .next ./fe/. 
+    - mv package.json ./fe/. 
+    - zip -r fe.zip fe
+    - scp -r fe.zip $YASPEAK_DEV_USER@$YASPEAK_DEV_IP:.
+    - ssh $YASPEAK_DEV_USER@$YASPEAK_DEV_IP 'bash -s' < ./deploy_int.sh
